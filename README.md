@@ -16,6 +16,7 @@ spikingjelly==0.0.0.0.12
 
 ### Testing ImageNet Val data 
 ```
+cd imagenet
 python test.py
 ```
 Setting hyper-parameters in imagenet.yml
