@@ -14,10 +14,17 @@ pytorch==1.10.0+cu111
 
 spikingjelly==0.0.0.0.12
 
+Setting hyper-parameters in imagenet.yml
+### Training  on ImageNet
+```
+cd imagenet
+python -m torch.distributed.launch --nproc_per_node=8 train.py
+```
+
 ### Testing ImageNet Val data 
 ```
 cd imagenet
 python test.py
 ```
-Setting hyper-parameters in imagenet.yml
+
 
