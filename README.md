@@ -12,6 +12,10 @@ If you find this repo useful, please consider citing:
 ```
 Our codes are based on the official imagenet example by PyTorch, pytorch-image-models by Ross Wightman and SpikingJelly by Wei Fang.
 
+<p align="center">
+<img src="https://github.com/ZK-Zhou/spikformer/blob/main/images/overview01.png">
+</p>
+
 ### Requirements
 timm==0.5.4
 
