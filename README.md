@@ -58,4 +58,11 @@ cd imagenet
 python test.py
 ```
 
+Setting hyper-parameters in cifar10.yml
+### Training  on cifar10
+```
+cd cifar10
+python train.py
+```
+
 
