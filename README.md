@@ -45,8 +45,9 @@ data prepare: ImageNet with the following folder structure, you can extract imag
 ```
 
 
-Setting hyper-parameters in imagenet.yml
 ### Training  on ImageNet
+Setting hyper-parameters in imagenet.yml
+
 ```
 cd imagenet
 python -m torch.distributed.launch --nproc_per_node=8 train.py
@@ -58,8 +59,8 @@ cd imagenet
 python test.py
 ```
 
-Setting hyper-parameters in cifar10.yml
 ### Training  on cifar10
+Setting hyper-parameters in cifar10.yml
 ```
 cd cifar10
 python train.py
