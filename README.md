@@ -1,4 +1,4 @@
-# Spikformer: When Spiking Neural Network Meets Transformer, ICLR 2023 [arxiv](https://arxiv.org/abs/2209.15425)
+# Spikformer: When Spiking Neural Network Meets Transformer, [ICLR 2023](https://arxiv.org/abs/2209.15425)
 
 ## Reference
 If you find this repo useful, please consider citing:
