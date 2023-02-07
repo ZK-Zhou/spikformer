@@ -1,13 +1,15 @@
-# Spikformer: When Spiking Neural Network Meets Transformer, [ICLR 2023](https://arxiv.org/abs/2209.15425)
+# Spikformer: When Spiking Neural Network Meets Transformer, [ICLR 2023](https://openreview.net/forum?id=frE4fUwz_h)
 
 ## Reference
 If you find this repo useful, please consider citing:
 ```
-@article{zhou2022spikformer,
-  title={Spikformer: When Spiking Neural Network Meets Transformer},
-  author={Zhou, Zhaokun and Zhu, Yuesheng and He, Chao and Wang, Yaowei and Yan, Shuicheng and Tian, Yonghong and Yuan, Li},
-  journal={arXiv preprint arXiv:2209.15425},
-  year={2022}
+@inproceedings{
+zhou2023spikformer,
+title={Spikformer: When Spiking Neural Network Meets Transformer },
+author={Zhaokun Zhou and Yuesheng Zhu and Chao He and Yaowei Wang and Shuicheng YAN and Yonghong Tian and Li Yuan},
+booktitle={The Eleventh International Conference on Learning Representations },
+year={2023},
+url={https://openreview.net/forum?id=frE4fUwz_h}
 }
 ```
 Our codes are based on the official imagenet example by PyTorch, pytorch-image-models by Ross Wightman and SpikingJelly by Wei Fang.
