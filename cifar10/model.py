@@ -72,12 +72,12 @@ class SSA(nn.Module):
         q = q_linear_out.reshape(T, B, N, self.num_heads, C//self.num_heads).permute(0, 1, 3, 2, 4).contiguous()
 
         k_linear_out = self.k_linear(x_for_qkv)
-        k_linear_out = self.k_bn(k_linear_out. transpose(-1, -2)).transpose(-1, -2).reshape(T,B,C,N).contiguous()
+        k_linear_out = self.k_bn(k_linear_out. transpose(-1, -2)).transpose(-1, -2).reshape(T, B, N, C).contiguous()
         k_linear_out = self.k_lif(k_linear_out)
         k = k_linear_out.reshape(T, B, N, self.num_heads, C//self.num_heads).permute(0, 1, 3, 2, 4).contiguous()
 
         v_linear_out = self.v_linear(x_for_qkv)
-        v_linear_out = self.v_bn(v_linear_out. transpose(-1, -2)).transpose(-1, -2).reshape(T,B,C,N).contiguous()
+        v_linear_out = self.v_bn(v_linear_out. transpose(-1, -2)).transpose(-1, -2).reshape(T, B, N, C).contiguous()
         v_linear_out = self.v_lif(v_linear_out)
         v = v_linear_out.reshape(T, B, N, self.num_heads, C//self.num_heads).permute(0, 1, 3, 2, 4).contiguous()
 
@@ -101,10 +101,8 @@ class Block(nn.Module):
         self.mlp = MLP(in_features=dim, hidden_features=mlp_hidden_dim, drop=drop)
 
     def forward(self, x):
-        x_attn = self.attn(x)
-        x = x + x_attn
+        x = x + self.attn(x)
         x = x + self.mlp(x)
-
         return x
 
 
