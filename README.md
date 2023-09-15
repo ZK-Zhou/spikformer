@@ -1,4 +1,5 @@
 # Spikformer: When Spiking Neural Network Meets Transformer, [ICLR 2023](https://openreview.net/forum?id=frE4fUwz_h)
+# Spikformer V2: Join the High Accuracy Club on ImageNet with an SNN Ticket is on the way.
 
 ## Reference
 If you find this repo useful, please consider citing:
