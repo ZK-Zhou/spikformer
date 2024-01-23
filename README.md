@@ -1,3 +1,6 @@
+<p align="center">
+<img src="https://github.com/ZK-Zhou/spikformer/blob/main/images/overview01.png">
+</p>
 # Spikformer: When Spiking Neural Network Meets Transformer, [ICLR 2023](https://openreview.net/forum?id=frE4fUwz_h).
 # Spikformer V2: Join the High Accuracy Club on ImageNet with an SNN Ticket, [Arxiv](https://arxiv.org/abs/2401.02020).
 The Spikformer V2 code will be released after it organized.
