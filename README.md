@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/ZK-Zhou/spikformer/blob/main/images/spikformer.jpeg" width="20%">
+<img src="https://github.com/ZK-Zhou/spikformer/blob/main/images/spikformer-logo.png" width="20%">
 </p>
 
 # Spikformer: When Spiking Neural Network Meets Transformer, [ICLR 2023](https://openreview.net/forum?id=frE4fUwz_h).
